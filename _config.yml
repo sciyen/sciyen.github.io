@@ -9,12 +9,12 @@
 title: sciyen's site
 email: r10921008@g.ntu.edu.tw
 description: > # this means to ignore newlines until "baseurl:"
-  A personal website of Yen Cheng Chu (sciyen) or 朱雁丞, who is a student
+  A personal website of Yen Cheng Chu, 朱雁丞 (sciyen), who is a student
   studying in National Taiwan University (NTU) and majored in Electrical 
   Engineering (EE).
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://sciyen.github.io" # the base hostname & protocol for your site
-twitter_username: jekyllrb
+facebook_username: yen cheng chu
 github_username:  sciyen
 
 # Build settings
