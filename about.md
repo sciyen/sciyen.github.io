@@ -8,7 +8,7 @@ permalink: /about/
 <table>
     <tr>
         <td style="width:50%">
-            <img src="https://scontent-tpe1-1.xx.fbcdn.net/v/t1.6435-9/84268242_2769463673140417_1581516269599850496_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Sv96bfNOe18AX8jTMNv&tn=JN6Lqt2T8lpLwuyb&_nc_ht=scontent-tpe1-1.xx&oh=00_AfAVFmApX5AI0YqXISpChTSaMuPOAL0_5-jW_7s9PqPHqA&oe=63A67D4B">
+            <img src="../assets/me.png">
         </td>
         <td>
             <ul>
@@ -20,6 +20,8 @@ permalink: /about/
         </td>
     </tr>
 </table>
+
+我熱衷於結合科技與生活，製作 side project 或是 hacking 自己的生活。讓不會動的東西動起來是興趣，動得漂亮是浪漫。研究領域包含控制系統、非線性系統。偶爾嵌入式系統，設計電路板，或是寫網頁。
 
 ## Education
 - 2021~, M.S., [National Taiwan University, Department of Electrical Engineering](https://web.ee.ntu.edu.tw/) (Control Group).
