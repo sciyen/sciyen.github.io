@@ -1,0 +1,32 @@
+- name: "Programming"
+  details:
+    - name: "C/C++"
+      rate: 70
+    - name: "C#"
+      rate: 30
+    - name: "Javascript"
+      rate: 50
+    - name: "Python"
+      rate: 80
+    - name: "Matlab"
+      rate: 80
+- name: "Software Experience"
+  details:
+    - name: "Solidworks"
+      rate: 70
+    - name: "Altium"
+      rate: 50
+    - name: "Git"
+      rate: 50
+- name: "Hardware Experience"
+  details:
+    - name: "stm32"
+      rate: 30
+    - name: "ESP32" 
+      rate: 70
+    - name: "Raspberry Pi"
+      rate: 20
+    - name: "Jetson TX2"
+      rate: 20
+    - name: "Arduino"
+      rate: 80

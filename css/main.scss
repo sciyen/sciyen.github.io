@@ -17,6 +17,7 @@ $spacing-unit:     30px;
 $text-color:       #f3fbff;
 $background-color: none;
 $brand-color:      #9ac6ff;
+$brand-color-dark: darken($brand-color, 25%);
 
 $grey-color:       #EEEEEE;
 $grey-color-light: lighten($grey-color, 40%);
@@ -52,7 +53,8 @@ $on-laptop:        800px;
         "syntax-highlighting",
         "_stars",
         "_icons",
-        "_vertical_timeline"
+        "_vertical_timeline",
+        "_score_bar"
 ;
 
 .post-content{
@@ -95,6 +97,9 @@ h1{
     text-align:center;
 }
 
+.page-content div h2{
+    margin-top: 50px;
+}
 
 .intro-block{
     display: flex;
@@ -112,5 +117,16 @@ h1{
 
     img{
         width: 200px;
+    }
+}
+
+.skill-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    ul {
+        width: 250px;
     }
 }

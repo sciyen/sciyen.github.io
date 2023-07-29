@@ -26,6 +26,21 @@ layout: default
     </div>
 </div>
 
+<h2>Skills</h2>
+<div class="skill-container">
+    {% for skill in site.data.skills %}
+    <ul class="score-bar">
+        <h3>{{ skill.name }}</h3>
+        {% for item in skill.details %}
+            <li>
+                <span>{{ item.name }}</span>
+                <p style="width: {{ item.rate }}%"></p>
+            </li>
+        {% endfor %}
+    </ul>
+    {% endfor %}
+</div>
+
 <h2>Educations</h2>
 <ul class="timeline">
 {% for item in site.data.educations %}
@@ -38,6 +53,24 @@ layout: default
             <div class="desc">
                 <span>{{ item.university }}</span>
                 <span><a href="{{item.url}}">{{ item.department }}</a></span>
+            </div>
+        </div>
+    </li>
+{% endfor %}
+</ul>
+
+<h2>Experiences</h2>
+<ul class="timeline">
+{% for item in site.data.experiences %}
+    <li>
+        <div class="direction-r">
+            <div class="flag-wrapper">
+                <span class="flag">{{ item.job-title }}</span>
+                <span class="time-wrapper">{{ item.time }}</span>
+            </div>
+            <div class="desc">
+                <span><a href="{{item.url}}">{{ item.organization }}</a></span>
+                <span>{{ item.location }}</span>
             </div>
         </div>
     </li>
