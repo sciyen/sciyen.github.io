@@ -1,0 +1,27 @@
+.score-bar {
+    list-style-type: none;
+
+    li {
+        position: relative;
+        padding-left: 120px;
+
+        span {
+            position: absolute;
+            top: 50%;
+            left: 0px;
+            display: inline-block;
+            width: 120px;
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+        }
+
+        p {
+            margin: auto;
+            position: relative;
+            display: inline-block;
+            height: 12px;
+            background: $brand-color;
+            border-radius: 10px;
+        }
+    }
+}
