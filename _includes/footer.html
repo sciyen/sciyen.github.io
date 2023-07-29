@@ -20,6 +20,18 @@
           </li>
           {% endif %}
 
+          {% if site.facebook_username %}
+          <li>
+            {% include icon-fb.html username=site.facebook_username url=site.facebook_url%}
+          </li>
+          {% endif %}
+
+          {% if site.linkedin_username %}
+          <li>
+            {% include icon-linkedin.html username=site.linkedin_username url=site.linkedin_url%}
+          </li>
+          {% endif %}
+
           {% if site.twitter_username %}
           <li>
             {% include icon-twitter.html username=site.twitter_username %}
