@@ -60,4 +60,62 @@ $on-laptop:        800px;
             width: 30%;
         }
     }
+    ul{
+        li{
+            ul{
+                li{
+                    display: inline-block;
+                    margin: 0;
+                    height: 100%;
+                    position: relative;
+                    top: 50%;
+                }
+                li:first-child{
+                    width: 3em;
+                }
+                li:nth-child(2){
+                    width: 60%;
+                }
+            }
+        }
+    }
+}
+
+.img-circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+    margin:auto;
+}
+
+h1{
+    text-align:center;
+}
+
+li {
+    span{
+        color: $brand-color;
+    }
+}
+
+
+.intro-block{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;        // vertical alignment
+
+    text-align:justify;
+
+    div{
+        display: flex;
+        width: 300px;
+    }
+
+    img{
+        width: 200px;
+    }
 }

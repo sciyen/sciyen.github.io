@@ -13,9 +13,15 @@ permalink: /about/
         <td>
             <ul>
                 <li>Facebook: <a href="https://www.facebook.com/sciyen.vincent.chu/">朱雁丞</a></li>
-                <li>LinkedIn: <a href="https://www.linkedin.com/in/yen-cheng-chu">Yen cheng Chu</a></li>
+                {% if site.linkin_username %}
+                <li>LinkedIn: <a href="{{ site.linkin_url }}">{{ site.linkin_username }}</a></li>
+                {% endif %}
+
+                {% if site.github_username %}
                 <li>Github: {% include icon-github.html username="sciyen" %}</li>
-                <li>Email: <a>r10921008@g.ntu.edu.tw</a></li>
+                {% endif %}
+
+                <li>Email: <a>{{ site.email }}</a></li>
             </ul>
         </td>
     </tr>
@@ -44,6 +50,19 @@ permalink: /about/
 - stm32(F407), ESP32, Raspberry Pi, Jetson TX2, Jetson NANO
 
 ## Awards
-- 2018, Team Leader, APAC HPC-AI Competition (新加坡超級電腦與人工智慧競賽), Second Place
-- 2019, Team Leader, 全國大專生電動車創意與實作競賽, 靜態第一名, 總積分第五名
-- 2020, 109學年度大學部專題研究競賽「自動駕駛系統設計與實作」, 優等
+- 
+    - 2018
+    - APAC HPC-AI Competition (新加坡超級電腦與人工智慧競賽), Team Leader
+    - Second Place
+- 
+    - 2019
+    - 全國大專生電動車創意與實作競賽, Team Leader
+    - 靜態第一名, 總積分第五名
+- 
+    - 2020
+    - 109學年度大學部專題研究競賽「自動駕駛系統設計與實作」, Team Leader
+    - 優等
+- 
+    - 2022
+    - Drones Innovation and Application Competition, Team Leader
+    - The High Distinction Award and The Best Popularity Award
