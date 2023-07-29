@@ -25,3 +25,21 @@ layout: default
         </ul>
     </div>
 </div>
+
+<h2>Educations</h2>
+<ul class="timeline">
+{% for item in site.data.educations %}
+    <li>
+        <div class="direction-r">
+            <div class="flag-wrapper">
+                <span class="flag">{{ item.degree }}</span>
+                <span class="time-wrapper">{{ item.time }}</span>
+            </div>
+            <div class="desc">
+                <span>{{ item.university }}</span>
+                <span><a href="{{item.url}}">{{ item.department }}</a></span>
+            </div>
+        </div>
+    </li>
+{% endfor %}
+</ul>

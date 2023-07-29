@@ -51,7 +51,8 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting",
         "_stars",
-        "_icons"
+        "_icons",
+        "_vertical_timeline"
 ;
 
 .post-content{
@@ -92,12 +93,6 @@ $on-laptop:        800px;
 
 h1{
     text-align:center;
-}
-
-li {
-    span{
-        color: $brand-color;
-    }
 }
 
 
