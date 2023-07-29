@@ -1,101 +1,36 @@
 ---
 layout: page
-title: Side Projects
-permalink: /side_projects/
+title: Projects
+permalink: /projects/
 ---
 
-# 2018 APAC HPC-AI 
-![](../assets/imgs/hpc_ai_team.jpg)
-- 10人團隊 
-- 擔任隊長規劃團隊方向，研究Tensorflow程式撰寫，Inception V3物件辨識模型研讀與解析，試驗不同參數對效能之影響，測試不同分散式增進架構，提升多GPU分散式運算效能。
+<h1>Projects</h1>
 
-# 全國大專生電動車競賽 
-![](../assets/imgs/self_driving_team.jpg)
-- 11人團隊 
-- 車體結構主要設計負責人、車體結構強度模擬分析、車體原型設計與製作、車體結構製作、車上供電系統、創意活動式方向盤設計、前燈方向燈與剎車燈線路、分散式剎車平衡機構設計 
+{% for project in site.data.projects %}
+<div>
+    {% if project.url %}
+    <h3><a href="{{project.url}}">{{ project.name }}</a></h3>
+    {% else %}
+    <h3>{{ project.name }}</h3>
+    {% endif %}
+    <div>
+        <img src="{{project.cover-photo}}" alt="{{ project.name }}">
+    </div>
+    <div>{{ project.team }}</div>
+    <div>
+        {% if project.tags %}
+        <div>
+            {% for tag in project.tags %}
+            <span>{{ tag }}</span>
+            {% endfor %}
+        </div>
+        {% endif %}
 
-# 自動駕駛系統設計與實作 
-![](../assets/imgs/self_driving.jpg)
-- 7人團隊 
-- 系統設計與整合、車上電力系統設計、驅動器電路設計與製作、傳動系統設計與製作、電子剎車結構設計、CAN bus通訊、模組化通訊介面、電流與速度控 制器設計、轉向機構設計與實作、路徑規劃流程設計、路徑決策機制、模擬環境設計、Stanley Control、速度命令規劃算法、車輛狀態機設計、Socket傳輸 
-
-# Ground Explorer群組機器人 
-- 7人團隊 
-- 本專題目標為製作低成本體積小的個體機器人，藉由彼此互相合作完成複雜的任務，並且期望機器人於合作過程中以平滑軌跡移動，以此降低因輪胎與路面滑移造成的誤差。我主要研究二輪車輛運動模型、粗糙Encoder之速度讀取、SocketIO資料傳輸、網頁呈現頁面建立。 
-
-# 科技部大專生研究計畫 
-![](../assets/imgs/obs_avoidance.jpg)
-- 個人 
-- 使用Voronoi Graph建構虛擬地圖，模擬二輪機器人於地圖中之運動，藉由虛擬感測器探索環境資訊，實作SLAM演算法定位機器人位置，以space-time A*演算法做全域路徑規劃，並研究其最佳化方法。 
-
-# BESIDE 陪伴機器人 
-![](../assets/imgs/beside.jpg)
-- 4人團隊 
-- 因應台灣人口老化，借由設計思考發想一解決該問題之方案，利用該產品可以藉由相片回顧拉近長者與年輕族群的距離。我主要負責Raspberry Pi GUI程式設計(tkinter)、相簿管理與存取、偕同討論使用者設計流程。 
-
-# EZBUY (網頁爬蟲與聊天機器人) 
-![](../assets/imgs/ezbuy.jpg)
-- 4人團隊 
-- 為解決社群軟體二手拍賣經常錯過商品，或是搜尋商品不易的問題，我們開發一聊天機器人，其可以至指定的FB社團搜索對應產品並通知訂閱者。我主要做Facebook網頁資料爬蟲並記錄至MongoDB資料庫、做數據分析並篩選符合資料。 
-
-# The Maze(視窗程式遊戲專題) 
-![](../assets/imgs/the_maze.jpg)
-- 2人團隊 
-- 主要程式設計者，設計生命管理系統(賦予物件生命值)、地圖隨機產生器、怪物生成系統並用A*算法實現自動跟隨、武器變換功能(可以不同武器並且每種都有特殊功能) 
-
-# Air Hockey Robot 
-![](../assets/imgs/air_hocky.jpg)
-- 個人 
-- 利用C++製作影像分析程式，自動抓取Hockey位置及平台範圍，藉由運動方程式預測其未來軌跡，並利用USB com port傳送位置指令給Arduino base的控制器，實作動態Motion Planner規劃X-Y系統運動，利用Task Queue儲存動態位置命令。 
-
-# Dancing Painter 
-![](../assets/imgs/dancing_painter.jpg)
-- 2人團隊 
-- 本專題旨在結合科技與藝術，希望以嶄新方式讓大眾對科技有新的體驗。我負責主要程式設計，利用C++製作影像分析程式，抓取特定顏色的標記作為遊戲者，利用螢幕畫面模擬遊戲誘導遊戲者舞動身體，在遊戲過程中記錄遊戲者速度、位置等跳舞資訊，經過修飾後傳送給Arduino控制噴嘴方向角，並控制氣閥輸出，使CMYK顏料藉由高壓空氣噴射於紙上。 
-
-# 工科系畢業典禮動態系統 
-![](../assets/imgs/grad_ceremony.jpg)
-- 個人 
-- 利用即時互動網頁及AJAX技術，由一控制網頁控制目前所在流程，其他網頁則顯示動態及當前流程，並同時直播典禮畫面，讓不在典禮現場或仍然在準備區的人也能了解典禮現況。 
-
-# 工科系光球表演 
-![](../assets/imgs/light_sabor.jpg)
-- 個人 
-- 光球表演大多沒辦法與音樂互相配合，因此決定自行設計，顛覆大家對光球的想像。利用視窗程式製作光球編輯程式，該程式讓使用者依據音樂配對不同光影效果，並產生壓縮後的光球編碼作為光球控制訊號，於光球上解碼後得到與音樂相配合的光影效果，並控制光影在正確的時間點作動。 
-
-# 工科系傳情訂購表單系統 
-![](../assets/imgs/es_love.jpg)
-- 個人 
-- 由於傳情表單需要能夠動態選擇購買商品以及即時顯示優惠後的價格，並且包含許多購買組合與優惠方案，因此我自行設計此網頁以符合需求，並且提供賣方繳費檢驗機制與後台介面統計商品賣出數量，利用AJAX技術達成動態需求，並以Raspberry Pi作為網頁伺服器。 
-
-# ESCAPE(微處理機與介面設計專題、工科營黑客松) 
-![](../assets/imgs/escape.jpg)
-- 3人團隊 
-- 此專題日後用於工程科學研習營之黑客松活動，本專題將複雜技術包裝於簡易關卡中，希望藉由破關方式讓學員體驗成就感。 
-利用Raspberry Pi架設網頁伺服器，以網頁做為遙控人機介面，並以USB傳送馬達控制命令予Arduino端，Arduino解譯後控制LED面板以及發射砲台發射砲彈。 
-
-# 車道辨識(Lane Line Detection) 
-![](../assets/imgs/lane_detection.jpg)
-- 個人 
-- 此為「自動駕駛實務」專題，利用色域轉換、邊緣檢測、Hough Transform等演算法偵測車道線並降低陰影、光照差異之影響，我嘗試使用創新方法:以Hough Domain統計資訊尋找影像視覺中心點。 
-https://youtu.be/4kwuS4jsSXk 
-
-# Covid19 Detection 
-![](../assets/imgs/covid_detection.jpg)
-- 2人團隊 
-- 此為「人工智慧導論」課程中的專題實作，藉由肺部X光照片判斷其患者肺炎種類，利用OpenCV影像處理使得肺部發炎特徵明顯化，並使用一創新方式將黑白X光照片處理後，儲存其資訊於不同channel內以供YOLO辨識。 
-
-# AI Mango Classification 
-![](../assets/imgs/mango_detection.jpg)
-- 個人 
-- 此為AIdea舉辦之AI Cup中的項目，目標為依據芒果照片識別芒果等級，我以YOLO辨識芒果主體並進行裁切作為前處理，分類模型參考Resnet中的Residual layer做特徵提取，最終獲得Train Accuracy 0.813與 Test Accuracy 0.775的結果 
-
-# 探討風扇角度、風扇流向對鰭片散熱所造成之影響 
-![](../assets/imgs/thermal_analysis.jpg)
-- 4人團隊 
-- 此為熱傳遞學專題，研究不同風扇角度以及風扇方向不同的情形下，對一LED散熱鰭片散熱效果之探討，以實際實驗及COMSOL流場模擬，並依據所學之熱傳學及流體力學對其成因做合理解釋。 
-
-# Always Be With You
-![](../assets/imgs/always_be_with_you.jpg)
-- 4人團隊
-- 機械結構設計與製作，馬達驅動與回授控制系統設計。
+        {% if site.tags %}
+        <div>
+        <p>{{ project.description }}</p>
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endfor %}
