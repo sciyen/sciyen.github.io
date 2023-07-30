@@ -10,7 +10,7 @@ layout: default
     我熱衷於結合科技與生活，製作 side project 或是 hacking 自己的生活。讓不會動的東西動起來是興趣，動得漂亮是浪漫。研究領域包含控制系統、非線性系統。偶爾嵌入式系統，設計電路板，或是寫網頁。
     </div>
     <div>
-        <img src="../assets/me.png" class="img-circle">
+        <img src="../assets/me.jpg" class="img-circle">
     </div>
     <div>
         <ul>

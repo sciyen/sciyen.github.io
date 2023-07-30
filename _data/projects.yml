@@ -1,14 +1,17 @@
 #
-- name: "2018 APAC HPC-AI"
-  cover-photo: "/assets/imgs/hpc_ai_team.jpg"
-  team: "10人團隊"
-  description: "擔任隊長規劃團隊方向，研究Tensorflow程式撰寫，Inception V3物件辨識模型研讀與解析，試驗不同參數對效能之影響，測試不同分散式增進架構，提升多GPU分散式運算效能。"
-  tags: [HPC, DL]
+# - name: "2018 APAC HPC-AI"
+#   time: "2018"
+#   cover-photo: "/assets/imgs/hpc_ai_team.jpg"
+#   team: "10人團隊"
+#   description: "擔任隊長規劃團隊方向，研究Tensorflow程式撰寫，Inception V3物件辨識模型研讀與解析，試驗不同參數對效能之影響，測試不同分散式增進架構，提升多GPU分散式運算效能。"
+#   tags: [HPC, DL]
 #
-- name: "全國大專生電動車競賽"
-  cover-photo: "/assets/imgs/self_driving_team.jpg"
-  team: "11人團隊"
-  description: "車體結構主要設計負責人、車體結構強度模擬分析、車體原型設計與製作、車體結構製作、車上供電系統、創意活動式方向盤設計、前燈方向燈與剎車燈線路、分散式剎車平衡機構設計。"
+# - name: "全國大專生電動車競賽"
+#   time: "2018"
+#   cover-photo: "/assets/imgs/self_driving_team.jpg"
+#   team: "11人團隊"
+#   description: "車體結構主要設計負責人、車體結構強度模擬分析、車體原型設計與製作、車體結構製作、車上供電系統、創意活動式方向盤設計、前燈方向燈與剎車燈線路、分散式剎車平衡機構設計。"
+#   video: "https://youtu.be/a_5dNzAr55Q"
 #
 - name: "自動駕駛系統設計與實作"
   time: "2019"
@@ -69,7 +72,7 @@
   tags: [ES, Web]
 #
 - name: "工科系光球表演"
-  cover-photo: ""
+  cover-photo: "https://camo.githubusercontent.com/c5debfb5ad0c9f94e4de257085a1e45aa28b2b953d5ed5a50387665a10dae7d2/68747470733a2f2f692e696d6775722e636f6d2f6c4c49636d50352e6a7067"
   team: "個人"
   description: "光球表演大多沒辦法與音樂互相配合，因此決定自行設計，顛覆大家對光球的想像。利用視窗程式製作光球編輯程式，該程式讓使用者依據音樂配對不同光影效果，並產生壓縮後的光球編碼作為光球控制訊號，於光球上解碼後得到與音樂相配合的光影效果，並控制光影在正確的時間點作動。"
   url: "https://github.com/sciyen/ES-Lux"
@@ -77,7 +80,7 @@
   tags: [ES, ESP32]
 #
 - name: "ES-Lux"
-  cover-photo: ""
+  cover-photo: "https://camo.githubusercontent.com/09c8ae32e63797518f31d63f94bdb9b1228bf76e04485f508beefe02d58b2e89/68747470733a2f2f692e696d6775722e636f6d2f6435337a7255702e6a7067"
   team: "2人團隊"
   description: "光球表演大多沒辦法與音樂互相配合，因此決定自行設計，顛覆大家對光球的想像。利用視窗程式製作光球編輯程式，該程式讓使用者依據音樂配對不同光影效果，並產生壓縮後的光球編碼作為光球控制訊號，於光球上解碼後得到與音樂相配合的光影效果，並控制光影在正確的時間點作動。"
   url: "https://github.com/sciyen/ES-Lux"
@@ -94,7 +97,7 @@
 - name: "工科系虛擬畢業典禮"
   cover-photo: ""
   team: "個人"
-  description: ""
+  description: "由於疫情因素，我們的大學畢業典禮取消，為了讓大家有畢業典禮的感覺，我們設計這個系統讓師生可以在上面互動，並且進行撥穗儀式。"
   url: "https://github.com/sciyen/VirtualGraduationCeremony"
   tags: [ES, Web]
 #
@@ -128,9 +131,9 @@
   tags: [ES, Course, DL]
 #
 - name: "raycaster"
-  cover-photo: ""
+  cover-photo: "https://i.imgur.com/PexcrJA.png"
   team: "個人"
-  description: "https://hackmd.io/SgFjqgnWSpOWUrJRK1-16w"
+  description: "A efficient and lean implementation of the ray casting algorithm. https://hackmd.io/SgFjqgnWSpOWUrJRK1-16w"
   url: "https://github.com/sciyen/raycaster"
   tags: [Course]
 #
@@ -143,12 +146,13 @@
   tags: [EE, Course]
 #
 - name: "Reseach Helper"
-  cover-photo: ""
+  cover-photo: "https://camo.githubusercontent.com/5efb06e2b4247423181b57f79f3b3d2a6804b87a546f98f089274c5099b7a92e/68747470733a2f2f692e696d6775722e636f6d2f52797a567a71692e706e67"
   team: "個人"
-  description: ""
+  description: "This is a plugin for diagrams.net(drawio) which retrieves the library from your Zotero personal account and organizes your references according to the collection in it. With this plugin, you can add tags for blocks with standard citation format."
   url: "https://github.com/sciyen/ResearchHelper"
 #
 - name: "ISP Avionic System"
-  cover-photo: ""
+  cover-photo: "https://imgur-backup.hackmd.io/Igu0pTp.png"
   team: "個人"
+  description: "We developed this version for an advanced controlled rocket plan, which requires much more computational resources and more precise sensor feedback, and needs the communication capability."
   url: "https://github.com/sciyen/NCKU-ISP"

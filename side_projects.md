@@ -28,7 +28,7 @@ permalink: /projects/
             </div>
             {% endif %}
             {% if site.tags %}
-            <div>
+            <div class="desc">
             <p>{{ project.description }}</p>
             </div>
             {% endif %}
