@@ -11,11 +11,13 @@
   description: "車體結構主要設計負責人、車體結構強度模擬分析、車體原型設計與製作、車體結構製作、車上供電系統、創意活動式方向盤設計、前燈方向燈與剎車燈線路、分散式剎車平衡機構設計。"
 #
 - name: "自動駕駛系統設計與實作"
+  time: "2019"
   cover-photo: "/assets/imgs/self_driving.jpg"
   team: "7人團隊"
   description: "系統設計與整合、車上電力系統設計、驅動器電路設計與製作、傳動系統設計與製作、電子剎車結構設計、CAN bus通訊、模組化通訊介面、電流與速度控 制器設計、轉向機構設計與實作、路徑規劃流程設計、路徑決策機制、模擬環境設計、Stanley Control、速度命令規劃算法、車輛狀態機設計、Socket傳輸。"
 #
 - name: "Ground Explorer 群組機器人"
+  time: "2018"
   cover-photo: "/assets/imgs/hpc_ai_team.jpg"
   team: "7人團隊"
   description: "本專題目標為製作低成本體積小的個體機器人，藉由彼此互相合作完成複雜的任務，並且期望機器人於合作過程中以平滑軌跡移動，以此降低因輪胎與路面滑移造成的誤差。我主要研究二輪車輛運動模型、粗糙Encoder之速度讀取、SocketIO資料傳輸、網頁呈現頁面建立。"
@@ -26,6 +28,7 @@
   cover-photo: "/assets/imgs/obs_avoidance.jpg"
   team: "個人"
   description: "使用Voronoi Graph建構虛擬地圖，模擬二輪機器人於地圖中之運動，藉由虛擬感測器探索環境資訊，實作SLAM演算法定位機器人位置，以space-time A*演算法做全域路徑規劃，並研究其最佳化方法。"
+  video: "https://youtu.be/MolKumGbmEM"
 #
 - name: "BESIDE 陪伴機器人"
   cover-photo: "/assets/imgs/beside.jpg"
@@ -40,7 +43,7 @@
   url: "https://github.com/sciyen/EZBuy"
   tags: [Course, Web]
 #
-- name: "The Maze(視窗程式遊戲專題)"
+- name: "The Maze (視窗程式遊戲專題)"
   cover-photo: "/assets/imgs/the_maze.jpg"
   team: "2人團隊"
   description: "主要程式設計者，設計生命管理系統(賦予物件生命值)、地圖隨機產生器、怪物生成系統並用A*算法實現自動跟隨、武器變換功能(可以不同武器並且每種都有特殊功能)。"
@@ -70,6 +73,15 @@
   team: "個人"
   description: "光球表演大多沒辦法與音樂互相配合，因此決定自行設計，顛覆大家對光球的想像。利用視窗程式製作光球編輯程式，該程式讓使用者依據音樂配對不同光影效果，並產生壓縮後的光球編碼作為光球控制訊號，於光球上解碼後得到與音樂相配合的光影效果，並控制光影在正確的時間點作動。"
   url: "https://github.com/sciyen/ES-Lux"
+  video: "https://youtu.be/g5vR8DxKb7g"
+  tags: [ES, ESP32]
+#
+- name: "ES-Lux"
+  cover-photo: ""
+  team: "2人團隊"
+  description: "光球表演大多沒辦法與音樂互相配合，因此決定自行設計，顛覆大家對光球的想像。利用視窗程式製作光球編輯程式，該程式讓使用者依據音樂配對不同光影效果，並產生壓縮後的光球編碼作為光球控制訊號，於光球上解碼後得到與音樂相配合的光影效果，並控制光影在正確的時間點作動。"
+  url: "https://github.com/sciyen/ES-Lux"
+  video: "https://youtu.be/oVoUZH0_7GY"
   tags: [ES, ESP32]
 #
 - name: "工科系傳情訂購表單系統"
@@ -92,6 +104,7 @@
   description: "此專題日後用於工程科學研習營之黑客松活動，本專題將複雜技術包裝於簡易關卡中，希望藉由破關方式讓學員體驗成就感。 
 利用Raspberry Pi架設網頁伺服器，以網頁做為遙控人機介面，並以USB傳送馬達控制命令予Arduino端，Arduino解譯後控制LED面板以及發射砲台發射砲彈。"
   url: "https://github.com/sciyen/ES_Camp_22nd"
+  video: "https://youtu.be/GTZTrgLS88g"
   tags: [ES, Web]
 #
 - name: "車道辨識(Lane Line Detection)"
@@ -126,6 +139,7 @@
   team: "4人團隊"
   description: "機械結構設計與製作，馬達驅動與回授控制系統設計。"
   url: "https://github.com/sciyen/NTU-Robotic-2021-Fall"
+  video: "https://youtu.be/4aJaELIo60E"
   tags: [EE, Course]
 #
 - name: "Reseach Helper"

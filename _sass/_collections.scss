@@ -1,0 +1,103 @@
+.collection-container {
+    h3 {
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+}
+
+.collection-item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+
+    div {
+        display: inline-block;
+        width: 400px;
+        margin: auto;
+        text-align:justify;
+    }
+
+    .flag {
+        max-width: 80px;
+        margin: auto;
+        background-color: rgba(165, 165, 165, 0.140);
+        color: $grey-color;
+    }
+
+    img {
+        margin: auto;
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
+        object-fit: scale-down;
+    }
+
+    .link {
+        position: relative;
+        margin-right: 10px;
+
+        a:visited {
+            color: #9ac6ff;
+            // color: #aaaaff;
+        }
+
+        .fa {
+            // width: 20px;
+            // height: 20px;
+            // border: none;
+            // color: #aaaaff;
+            
+            width: 20px;
+            height: 20px;
+            padding: 5px;
+            border-style: solid;
+            border-radius: 50%;
+            border-color: white;
+            border-width: 2px;
+            background-color: rgba(165, 165, 165, 0.140);
+
+            &:before{
+                position: relative;
+                bottom: 0;
+                // left: 1px;
+                top: 1px;
+                // -ms-transform: translate(-50%, 50%);
+                // transform: translate(-50%, 50%);
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+.tags-container {
+
+    span {
+        display: inline-block;
+        margin-bottom: 10px;
+        padding: 0 5px 0 5px;
+        border-radius: 10px;
+        background-color: rgba(240, 248, 255, 0.452);
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .collection-item {
+        div {
+            width: 80%;
+        }
+
+        img {
+            margin-right: 10px;
+        }
+
+        .flag {
+            margin-left: 10px;
+        }
+
+        .link {
+            display: block;
+        }
+    }
+}
