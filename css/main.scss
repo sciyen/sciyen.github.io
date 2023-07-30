@@ -55,8 +55,17 @@ $on-laptop:        800px;
         "_icons",
         "_vertical_timeline",
         "_score_bar",
-        "_collections"
+        "_collections",
+        "_stories"
 ;
+
+div, span, p {
+    text-align:justify;
+}
+
+.desc, .note {
+    font-size: 0.85em;
+}
 
 .post-content{
     p {
