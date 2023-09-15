@@ -24,6 +24,8 @@
       rate: 30
     - name: "Unity"
       rate: 20
+    - name: "ROS / Gazebo"
+      rate: 40
 - name: "Hardware Experience"
   details:
     - name: "Stm32"
@@ -31,8 +33,10 @@
     - name: "ESP32" 
       rate: 70
     - name: "Raspberry Pi"
-      rate: 20
+      rate: 40
     - name: "Jetson TX2"
-      rate: 20
+      rate: 30
     - name: "Arduino"
       rate: 80
+    - name: "PX4 / Ardupilot"
+      rate: 30
