@@ -16,6 +16,8 @@
   details:
     - name: "Solidworks"
       rate: 70
+    - name: "PlatformIO"
+      rate: 70
     - name: "Altium"
       rate: 50
     - name: "Git"
