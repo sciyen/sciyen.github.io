@@ -33,13 +33,26 @@ layout: default
         <h3>{{ skill.name }}</h3>
         {% for item in skill.details %}
             <li>
-                <span>{{ item.name }}</span>
-                <p style="width: {{ item.rate }}%"></p>
+                <div>
+                    <span>{{ item.name }}</span>
+                    <p style="width: {{ item.rate }}%"></p>
+                </div>
+                {% if item.data %}
+                <div>
+                <ul>
+                    {% for d in item.data %}
+                    <li>{{ d }}</li>
+                    {% endfor %}
+                </ul>
+                </div>
+                {% endif %}
             </li>
         {% endfor %}
     </ul>
     {% endfor %}
 </div>
+
+<h2>Research Interests</h2>
 
 <h2>Educations</h2>
 <ul class="timeline">

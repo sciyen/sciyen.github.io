@@ -3,25 +3,39 @@
 
     li {
         position: relative;
-        padding-left: 120px;
+        // padding-left: 120px;
+        margin-left: 120px;
+        margin-bottom: 5px;
 
-        span {
-            position: absolute;
-            top: 50%;
-            left: 0px;
-            display: inline-block;
-            width: 120px;
-            -ms-transform: translateY(-50%);
-            transform: translateY(-50%);
-        }
-
-        p {
-            margin: auto;
-            position: relative;
-            display: inline-block;
-            height: 12px;
-            background: $brand-color;
-            border-radius: 10px;
+        div {
+            li {
+                position: relative;
+                margin-left: 0;
+                left: -120px;
+            }
+            span {
+                margin: auto;
+                position: relative;
+                top: 50%;
+                left: -120px;
+                display: inline-block;
+                width: 100px;
+                // width: 120px;
+                // -ms-transform: translateY(-50%);
+                // transform: translateY(-50%);
+            }
+    
+            p {
+                margin: auto;
+                margin-top: 0.4em;
+                position: absolute;
+                // top: 50%;
+                left: 0;
+                display: inline-block;
+                height: 12px;
+                background: $brand-color;
+                border-radius: 10px;
+            }
         }
     }
 }
