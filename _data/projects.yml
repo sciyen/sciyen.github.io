@@ -21,7 +21,7 @@
 #
 - name: "Ground Explorer 群組機器人"
   time: "2018"
-  cover-photo: "/assets/imgs/hpc_ai_team.jpg"
+  cover-photo: ""
   team: "7人團隊"
   description: "本專題目標為製作低成本體積小的個體機器人，藉由彼此互相合作完成複雜的任務，並且期望機器人於合作過程中以平滑軌跡移動，以此降低因輪胎與路面滑移造成的誤差。我主要研究二輪車輛運動模型、粗糙Encoder之速度讀取、SocketIO資料傳輸、網頁呈現頁面建立。"
   url: "https://github.com/sciyen/GroundExplorer"
@@ -72,7 +72,7 @@
   tags: [ES, Web]
 #
 - name: "工科系光球表演"
-  cover-photo: "https://camo.githubusercontent.com/c5debfb5ad0c9f94e4de257085a1e45aa28b2b953d5ed5a50387665a10dae7d2/68747470733a2f2f692e696d6775722e636f6d2f6c4c49636d50352e6a7067"
+  cover-photo: "/assets/imgs/es_light_ball.jpg"
   team: "個人"
   description: "光球表演大多沒辦法與音樂互相配合，因此決定自行設計，顛覆大家對光球的想像。利用視窗程式製作光球編輯程式，該程式讓使用者依據音樂配對不同光影效果，並產生壓縮後的光球編碼作為光球控制訊號，於光球上解碼後得到與音樂相配合的光影效果，並控制光影在正確的時間點作動。"
   url: "https://github.com/sciyen/ES-Lux"
@@ -80,7 +80,7 @@
   tags: [ES, ESP32]
 #
 - name: "ES-Lux"
-  cover-photo: "https://camo.githubusercontent.com/09c8ae32e63797518f31d63f94bdb9b1228bf76e04485f508beefe02d58b2e89/68747470733a2f2f692e696d6775722e636f6d2f6435337a7255702e6a7067"
+  cover-photo: "/assets/imgs/es_lux.jpg"
   team: "2人團隊"
   description: "光球表演大多沒辦法與音樂互相配合，因此決定自行設計，顛覆大家對光球的想像。利用視窗程式製作光球編輯程式，該程式讓使用者依據音樂配對不同光影效果，並產生壓縮後的光球編碼作為光球控制訊號，於光球上解碼後得到與音樂相配合的光影效果，並控制光影在正確的時間點作動。"
   url: "https://github.com/sciyen/ES-Lux"
@@ -95,10 +95,11 @@
   tags: [ES, Web]
 #
 - name: "工科系虛擬畢業典禮"
-  cover-photo: ""
+  cover-photo: "/assets/imgs/es_virtual_grad.jpg"
   team: "個人"
   description: "由於疫情因素，我們的大學畢業典禮取消，為了讓大家有畢業典禮的感覺，我們設計這個系統讓師生可以在上面互動，並且進行撥穗儀式。"
   url: "https://github.com/sciyen/VirtualGraduationCeremony"
+  demo-url: "https://sciyen.github.io/VirtualGraduationCeremony/"
   tags: [ES, Web]
 #
 - name: "ESCAPE(微處理機與介面設計專題、工科營黑客松)"
@@ -131,7 +132,7 @@
   tags: [ES, Course, DL]
 #
 - name: "raycaster"
-  cover-photo: "https://i.imgur.com/PexcrJA.png"
+  cover-photo: "/assets/imgs/raycaster.png"
   team: "個人"
   description: "A efficient and lean implementation of the ray casting algorithm. https://hackmd.io/SgFjqgnWSpOWUrJRK1-16w"
   url: "https://github.com/sciyen/raycaster"
@@ -146,10 +147,11 @@
   tags: [EE, Course]
 #
 - name: "Reseach Helper"
-  cover-photo: "https://camo.githubusercontent.com/5efb06e2b4247423181b57f79f3b3d2a6804b87a546f98f089274c5099b7a92e/68747470733a2f2f692e696d6775722e636f6d2f52797a567a71692e706e67"
+  cover-photo: "/assets/imgs/research_helper.png"
   team: "個人"
   description: "This is a plugin for diagrams.net(drawio) which retrieves the library from your Zotero personal account and organizes your references according to the collection in it. With this plugin, you can add tags for blocks with standard citation format."
   url: "https://github.com/sciyen/ResearchHelper"
+  demo-url: "https://sciyen.github.io/drawio/src/main/webapp/index.html?p=zotero.js"
 #
 - name: "ISP Avionic System"
   cover-photo: "https://imgur-backup.hackmd.io/Igu0pTp.png"

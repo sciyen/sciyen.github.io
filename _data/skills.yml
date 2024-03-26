@@ -26,8 +26,6 @@
       rate: 30
     - name: "Unity"
       rate: 20
-    - name: "ROS / Gazebo"
-      rate: 40
 - name: "Hardware Experience"
   details:
     - name: "Stm32"
@@ -40,5 +38,30 @@
       rate: 30
     - name: "Arduino"
       rate: 80
-    - name: "PX4 / Ardupilot"
+- name: "Web Programming"
+  details: 
+    - name: "nodejs (express)"
       rate: 30
+    - name: "Jekyll"
+      rate: 40
+    - name: "Three.js"
+      rate: 20
+    - name: "jQuery"
+      rate: 50
+- name: "Large Project Development"
+  details:
+    - name: "PX4"
+      rate: 60
+      data: [ "UAV", "Drone", "Quadcopter", "VTOL"]
+    - name: "Ardupilot"
+      rate: 30
+- name: "Robotics"
+  details:
+    - name: "ROS (rospy / roscpp)"
+      rate: 30
+    - name: "Gazebo Ignition (gz sim)"
+      rate: 30
+    - name: "Rviz"
+      rate: 30
+    - name: "urdf / xacro / sdf"
+      rate: 50
