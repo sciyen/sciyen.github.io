@@ -27,7 +27,7 @@ permalink: /projects/
                 {% endfor %}
             </div>
             {% endif %}
-            {% if site.tags %}
+            {% if project.description %}
             <div class="desc">
             <p>{{ project.description }}</p>
             </div>
@@ -43,6 +43,13 @@ permalink: /projects/
             <span class="link">
                 <a href="{{ project.video }}" target="_blank">
                     <span class="fa fa-play"></span>
+                </a>
+            </span>
+            {% endif %}
+            {% if project.demo-url %}
+            <span class="link">
+                <a href="{{ project.demo-url }}" target="_blank">
+                    <span class="fa fa-laptop"></span>
                 </a>
             </span>
             {% endif %}
