@@ -21,8 +21,11 @@ custom_js: true
         <ul class="photo-gallery">
         {% for image in site.static_files %}
             {% if image.path contains event.photo-dir %}
-                {% unless image.path contains 'thumbnail' %}
-                <li data-thumb="{% thumbnail_img image.path 50 %}">
+                {% assign thumb_url = image.path | remove: image.name | append: 'thumbnails/' | append: image.name  | remove: image.extname | append: '_50w' | append: image.extname %}
+                {% unless image.path contains 'thumbnails' %}
+                {% if thumb_url %}
+                    <li data-thumb="{{ thumb_url }}">
+                {% endif %}
                 <img src="{{ image.path }}" alt="" loading="lazy"/>
                 </li>
                 {% endunless %}
