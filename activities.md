@@ -2,6 +2,7 @@
 layout: page
 title: Activities
 permalink: /activities/
+custom_js: true
 ---
 
 <div class="collection-container">
@@ -12,17 +13,17 @@ permalink: /activities/
         {% if event.time %}
         <div>{{ event.time }}</div>
         {% endif %}
-        <!-- Cover -->
-        {% if event.cover-photo %}
-        <img src="{{ event.cover-photo }}" alt="{{ event.title }}" loading="lazy">
-        {% endif %}
         <!-- Photos -->
-        {% if event.photos %}
-        <div class="photo-gallery">
-            {% for photo-url in event.photos %}
-            <img src="{{ photo-url }}" alt="" loading="lazy">
-            {% endfor %}
-        </div>
+        {% if event.photo-dir %}
+        <ul class="photo-gallery">
+        {% for image in site.static_files %}
+            {% if image.path contains event.photo-dir %}
+                <li data-thumb="{{ image.path }}">
+                <img src="{{ image.path }}" alt="" loading="lazy"/>
+                </li>
+            {% endif %}
+        {% endfor %}
+        </ul>
         {% endif %}
         <!-- Description -->
         {% if event.description %}
@@ -31,3 +32,18 @@ permalink: /activities/
     </div>
     {% endfor %}
 </div>
+
+<script>
+    // https://github.com/sachinchoolur/lightslider
+    $(document).ready(function() {
+        $(".photo-gallery").lightSlider({
+            gallery: true,
+            item: 1,
+            loop: true,
+            thumbItem: 9,
+            slideMargin: 0,
+            enableDrag: false,
+            currentPagerPosition: 'left',
+        });
+    });
+</script>

@@ -1,0 +1,13 @@
+.lSSlideOuter .lSPager.lSGallery {
+    li {
+        opacity: 0.5;    
+    }
+
+    li.active {
+        opacity: 1;
+    }
+    
+    li:hover {
+        opacity: 1;
+    }
+}

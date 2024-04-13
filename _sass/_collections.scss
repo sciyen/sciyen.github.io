@@ -109,20 +109,19 @@
 }
 
 .photo-gallery {
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 30px;
 
     img {
-        margin: 10px;
-        width: 200px;
-        // height: 200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
         overflow: hidden;
         object-fit: scale-down;
         
         @media screen and (max-width: 500px) {
-            width: 40%;
+            width: 80%;
         }
     }
 }
