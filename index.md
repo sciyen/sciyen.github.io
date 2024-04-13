@@ -53,6 +53,7 @@ layout: default
 </div>
 
 <h2>Research Interests</h2>
+Robotics, Unmanned Aerial Vehicles, Control Systems, Embedded Systems.
 
 <h2>Educations</h2>
 <ul class="timeline">
