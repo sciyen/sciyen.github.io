@@ -90,3 +90,48 @@ Robotics, Unmanned Aerial Vehicles, Control Systems, Embedded Systems.
     </li>
 {% endfor %}
 </ul>
+
+<h2>Publication</h2>
+<ul id="publication-container">
+{% for item in site.data.publications %}
+    <li>
+        <div>
+            {% for author in item.Authors %}
+            <span>{{ author.Name }}, </span>
+            {% endfor %}
+            <span>"{{ item.Title }}", </span>
+            <span style="font-style: italic">in {{ item.Publication }}, </span>
+            <span>{{ item.Date }}</span>
+            {% if item.DOI %}
+            <span><a href="https://doi.org/{{ item.DOI }}">, DOI: {{ item.DOI }}</a></span>
+            {% endif %}
+            {% if item.Url %}
+            <span><a href="{{ item.Url }}">, [Link]</a></span>
+            {% endif %}
+            <span>.</span>
+        </div>
+        {% if item.Keywords %}
+        <div class="keyword-item">
+            <span class="icon icon--keyword">
+                {% include icon-lightbulb.svg %} 
+            </span>
+            <span>Keywords: </span>
+            <span class="tags-container">
+                {% for keyword in item.Keywords %}
+                <span>{{ keyword }}, </span>
+                {% endfor %}
+            </span>
+        </div>
+        {% endif %}
+        {% if item.Venue %}
+        <div class="location-item">
+            <span class="icon icon--location">
+                {% include icon-location.svg %}
+            </span>
+            <span>Venue Location: </span>
+            <span>{{ item.Venue }} </span>
+        </div>
+        {% endif %}
+    </li>
+{% endfor %}
+</ul>
