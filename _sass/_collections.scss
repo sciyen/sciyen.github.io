@@ -75,12 +75,23 @@
 
 .tags-container {
 
-    span {
+    span, button {
         display: inline-block;
         margin-bottom: 10px;
         padding: 0 5px 0 5px;
         border-radius: 10px;
         background-color: rgba(240, 248, 255, 0.452);
+    }
+
+    button {
+        height: 30px;
+        margin: 10px 10px;
+        padding: 5px 10px;
+        color: white;
+    }
+
+    button:hover, .selected {
+        background-color: rgba(79, 82, 84, 0.452);
     }
 }
 
