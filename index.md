@@ -7,7 +7,8 @@ layout: default
 <h1>朱雁丞 Yen-Cheng Chu</h1>
 <div class="intro-block">
     <div>
-    我熱衷於結合科技與生活，製作 side project 或是 hacking 自己的生活。讓不會動的東西動起來是興趣，動得漂亮是浪漫。研究領域包含控制系統、非線性系統。偶爾嵌入式系統，設計電路板，或是寫網頁。
+    <!-- 我熱衷於結合科技與生活，製作 side project 或是 hacking 自己的生活。讓不會動的東西動起來是興趣，動得漂亮是浪漫。研究領域包含控制系統、非線性系統。偶爾嵌入式系統，設計電路板，或是寫網頁。 -->
+    I am passionate about intergrating technology into life, making side projects, or hacking my own life. Making things that don't move come to life is interesting, and making them move beautifully is romantic. My research areas include control systems and nonlinear systems. Occasionally, I work on embedded systems, design circuit boards, or write web pages.
     </div>
     <div>
         <img src="../assets/me.jpg" class="img-circle">
@@ -27,6 +28,18 @@ layout: default
 </div>
 
 <h2>Skills</h2>
+<div>
+    <ul class="regular">
+        <li>Experience in Hybrid simulation (MATLAB Simulink)</li>
+        <li>PX4 on Nuttx RTOS system (6-DoF controller and control allocation)</li>
+        <li>Software-in-the-loop simulation (Gazebo)</li>
+        <li>Flight Data Analysis (Rviz, ulog, rosbag)</li>
+        <li>MCU development for 10 years (Atmega, STM32, ESP32, etc.)</li>
+        <li>ROS1 Noetic and ROS2 Humble</li>
+        <li>Being familier with version control software (Git)</li>
+        <li>PCB layout (for Avionics)</li>
+    </ul>
+</div>
 <div class="skill-container">
     {% for skill in site.data.skills %}
     <ul class="score-bar">
@@ -53,7 +66,35 @@ layout: default
 </div>
 
 <h2>Research Interests</h2>
-Robotics, Unmanned Aerial Vehicles, Control Systems, Embedded Systems.
+<div>
+Keywords: Robotics, Unmanned Aerial Vehicles, Control Systems, Embedded Systems.
+</div>
+<div>
+<ul class="regular">
+    <li>Vehicle dynamics on SE(3), including modeling and 6-DoF controls.</li>
+    <li>Designing controller for under-actuated / over-actuated system</li>
+    <li>Designing control allocation algorithm</li>
+</ul>
+</div>
+
+<h3>Master's Degree Research</h3>
+<p>Title: An Over-Actuated Thrust-Vectoring Modular Drone based on Cascaded Full-Pose Tracking Control with Redistributed Control Allocation for Safe Aerial Delivery Applications</p>
+<div class="project-block">
+    <div>
+        <img src="../assets/tvmd.png">
+    </div>
+    <div>
+        <ul class="regular">
+        <li>Advisor: Prof. Feng-Li Lian</li>
+        <li>Full article is available at: <a href="http://tdr.lib.ntu.edu.tw/jspui/handle/123456789/92117">NTU Thesis and Dissertion Repository</a></li>
+        </ul>
+    </div>
+</div>
+
+<h4>Abstract</h4>
+<div>
+In this research, a Thrust-Vectoring Modular Drone (TVMD) with coaxial rotors is proposed to address delivery challenges, such as the last-mile delivery for e-commerce services and transporting time-sensitive packages to outlying islands and mountain areas, especially when natural disasters or accidents occur. The TVMD is designed with high redundancy, controllability, and reconfigurability to ensure safety, flight efficiency, mobility, and maneuverability. The modular design of the drone enables optimal task performance by changing the type and number of agents.
+</div>
 
 <h2>Educations</h2>
 <ul class="timeline">
