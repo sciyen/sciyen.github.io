@@ -13,98 +13,99 @@
 #   description: "車體結構主要設計負責人、車體結構強度模擬分析、車體原型設計與製作、車體結構製作、車上供電系統、創意活動式方向盤設計、前燈方向燈與剎車燈線路、分散式剎車平衡機構設計。"
 #   video: "https://youtu.be/a_5dNzAr55Q"
 #
-- name: "自動駕駛系統設計與實作"
+- name: "Self-Driving System Design and Implementation 自動駕駛系統設計與實作"
   time: "2019"
   cover-photo: "/assets/imgs/self_driving.jpg"
-  team: "7人團隊"
-  description: "系統設計與整合、車上電力系統設計、驅動器電路設計與製作、傳動系統設計與製作、電子剎車結構設計、CAN bus通訊、模組化通訊介面、電流與速度控 制器設計、轉向機構設計與實作、路徑規劃流程設計、路徑決策機制、模擬環境設計、Stanley Control、速度命令規劃算法、車輛狀態機設計、Socket傳輸。"
+  team: "7 Members"
+  description: "I have two positions in this team, one is mechanical system engineer, and the other one is system integration engineer. I design the electric power steering system for the steering control, which involves position control of a brushed motor using stm32f4. I am also responsible for the vehicle struture design, which is mainly composed of carbon fiber beams and aluminum tubes. I also tries to build the motor driver circuit (including the gate driver and the full-bridge MOSFET array) for the 1kW BLDC motor. The vehicle is controlled based on the famous stanley control algorithm.
+  系統設計與整合、車上電力系統設計、驅動器電路設計與製作、傳動系統設計與製作、電子剎車結構設計、CAN bus通訊、模組化通訊介面、電流與速度控制器設計、轉向機構設計與實作、路徑規劃流程設計、路徑決策機制、模擬環境設計、Stanley Control、速度命令規劃算法、車輛狀態機設計、Socket傳輸。"
 #
-- name: "Ground Explorer 群組機器人"
+- name: "Ground Explorer Robot 群組機器人"
   time: "2018"
   cover-photo: ""
-  team: "7人團隊"
-  description: "本專題目標為製作低成本體積小的個體機器人，藉由彼此互相合作完成複雜的任務，並且期望機器人於合作過程中以平滑軌跡移動，以此降低因輪胎與路面滑移造成的誤差。我主要研究二輪車輛運動模型、粗糙Encoder之速度讀取、SocketIO資料傳輸、網頁呈現頁面建立。"
+  team: "7 Members"
+  description: "The main objective of this project is to develop low-cost, small-sized individual robots that can collaborate to accomplish complex tasks. The goal is for the robots to move smoothly along trajectories during collaboration to reduce errors caused by tire slippage on the road surface. The primary research areas include the motion model of two-wheeled vehicles, speed reading from rough Encoders, data transmission using SocketIO, and the development of web presentation pages.本專題目標為製作低成本體積小的個體機器人，藉由彼此互相合作完成複雜的任務，並且期望機器人於合作過程中以平滑軌跡移動，以此降低因輪胎與路面滑移造成的誤差。我主要研究二輪車輛運動模型、粗糙Encoder之速度讀取、SocketIO資料傳輸、網頁呈現頁面建立。"
   url: "https://github.com/sciyen/GroundExplorer"
   tags: [ESP32]
 #
-- name: "科技部大專生研究計畫"
+- name: "Undergraduate Research Project Scholarship, Ministry of Science and Technology 科技部大專生研究計畫"
   cover-photo: "/assets/imgs/obs_avoidance.jpg"
-  team: "個人"
-  description: "使用Voronoi Graph建構虛擬地圖，模擬二輪機器人於地圖中之運動，藉由虛擬感測器探索環境資訊，實作SLAM演算法定位機器人位置，以space-time A*演算法做全域路徑規劃，並研究其最佳化方法。"
+  team: "Personal"
+  description: "In this research, I constructed a virtual map using the Voronoi Graph and simulate the movement of a two-wheeled robot on the map. The virtual robot can explore environmental information using virtual sensors. I also implemented a SLAM algorithm for robot localization and a global path planning algorithm based on the space-time A* method. 使用Voronoi Graph建構虛擬地圖，模擬二輪機器人於地圖中之運動，藉由虛擬感測器探索環境資訊，實作SLAM演算法定位機器人位置，以space-time A*演算法做全域路徑規劃，並研究其最佳化方法。"
   video: "https://youtu.be/MolKumGbmEM"
 #
-- name: "BESIDE 陪伴機器人"
+- name: "BESIDE Acompany Robot 陪伴機器人"
   cover-photo: "/assets/imgs/beside.jpg"
-  team: "4人團隊"
+  team: "4 Members"
   description: "因應台灣人口老化，借由設計思考發想一解決該問題之方案，利用該產品可以藉由相片回顧拉近長者與年輕族群的距離。我主要負責Raspberry Pi GUI程式設計(tkinter)、相簿管理與存取、偕同討論使用者設計流程。"
   tags: [Course]
 #
 - name: "EZBUY (網頁爬蟲與聊天機器人)"
   cover-photo: "/assets/imgs/ezbuy.jpg"
-  team: "4人團隊"
-  description: "為解決社群軟體二手拍賣經常錯過商品，或是搜尋商品不易的問題，我們開發一聊天機器人，其可以至指定的FB社團搜索對應產品並通知訂閱者。我主要做Facebook網頁資料爬蟲並記錄至MongoDB資料庫、做數據分析並篩選符合資料。"
+  team: "4 Members"
+  description: "To address the common issues of missing products in second-hand marketplaces in Facebook group or difficulty in searching for products, we developed a chatbot that can search for corresponding products in a specified Facebook group and notify subscribers when goods are availabe. My main tasks include Facebook web scraping for data collection and recording into a MongoDB database, data analysis, and filtering for relevant data. 為解決社群軟體二手拍賣經常錯過商品，或是搜尋商品不易的問題，我們開發一聊天機器人，其可以至指定的FB社團搜索對應產品並通知訂閱者。我主要做Facebook網頁資料爬蟲並記錄至MongoDB資料庫、做數據分析並篩選符合資料。"
   url: "https://github.com/sciyen/EZBuy"
   tags: [Course, Web]
 #
 - name: "The Maze (視窗程式遊戲專題)"
   cover-photo: "/assets/imgs/the_maze.jpg"
-  team: "2人團隊"
+  team: "2 Members"
   description: "主要程式設計者，設計生命管理系統(賦予物件生命值)、地圖隨機產生器、怪物生成系統並用A*算法實現自動跟隨、武器變換功能(可以不同武器並且每種都有特殊功能)。"
   url: "https://github.com/sciyen/TheMaze"
   tags: [Course]
 #
 - name: "Air Hockey Robot"
   cover-photo: "/assets/imgs/air_hocky.jpg"
-  team: "個人"
-  description: "利用C++製作影像分析程式，自動抓取Hockey位置及平台範圍，藉由運動方程式預測其未來軌跡，並利用USB com port傳送位置指令給Arduino base的控制器，實作動態Motion Planner規劃X-Y系統運動，利用Task Queue儲存動態位置命令。"
+  team: "Personal"
+  description: "I develop an image analysis program using C++ that automatically detects the position of a hockey player and the platform range. The program predicts future trajectory of the hockey using motion equations, and sends position commands to an Arduino-based controller via a USB COM port. For the robot firmware, I implement a dynamic motion planner for X-Y system movement and utilizing a task queue to store dynamic position commands. 利用C++製作影像分析程式，自動抓取Hockey位置及平台範圍，藉由運動方程式預測其未來軌跡，並利用USB com port傳送位置指令給Arduino base的控制器，實作動態Motion Planner規劃X-Y系統運動，利用Task Queue儲存動態位置命令。"
   url: "https://github.com/sciyen/AirHocketRobot"
 #
 - name: "Dancing Painter"
   cover-photo: "/assets/imgs/dancing_painter.jpg"
-  team: "2人團隊"
-  description: "本專題旨在結合科技與藝術，希望以嶄新方式讓大眾對科技有新的體驗。我負責主要程式設計，利用C++製作影像分析程式，抓取特定顏色的標記作為遊戲者，利用螢幕畫面模擬遊戲誘導遊戲者舞動身體，在遊戲過程中記錄遊戲者速度、位置等跳舞資訊，經過修飾後傳送給Arduino控制噴嘴方向角，並控制氣閥輸出，使CMYK顏料藉由高壓空氣噴射於紙上。"
+  team: "2 Members"
+  description: "The main objective of this project is to integrate technology and art, aiming to provide a novel experience for the public to engage with technology. As the primary programmer, I am responsible for designing the main program using C++. The program analyzes images to identify specific colored markers as game players and simulates a game on the screen to encourage players to dance. During the game, the program records the player's speed, position, and other dance-related information. After processing, the data is sent to an Arduino controller to control the direction of the spray nozzle and the output of the air valve, allowing CMYK ink to be sprayed onto paper using high-pressure air. 本專題旨在結合科技與藝術，希望以嶄新方式讓大眾對科技有新的體驗。我負責主要程式設計，利用C++製作影像分析程式，抓取特定顏色的標記作為遊戲者，利用螢幕畫面模擬遊戲誘導遊戲者舞動身體，在遊戲過程中記錄遊戲者速度、位置等跳舞資訊，經過修飾後傳送給Arduino控制噴嘴方向角，並控制氣閥輸出，使CMYK顏料藉由高壓空氣噴射於紙上。"
 #
 - name: "工科系畢業典禮動態系統"
   cover-photo: "/assets/imgs/grad_ceremony.jpg"
-  team: "個人"
-  description: "利用即時互動網頁及AJAX技術，由一控制網頁控制目前所在流程，其他網頁則顯示動態及當前流程，並同時直播典禮畫面，讓不在典禮現場或仍然在準備區的人也能了解典禮現況。"
+  team: "Personal"
+  description: "I used real-time interactive web pages and AJAX technology to control the current graduation ceremony process on the web page. Other pages will synchronously display the current status and live broadcast the ceremony scene at the same time. This allows people who are not at the ceremony site or are still in the preparation area to understand the current situation of the ceremony. 利用即時互動網頁及AJAX技術，由一控制網頁控制目前所在流程，其他網頁則顯示動態及當前流程，並同時直播典禮畫面，讓不在典禮現場或仍然在準備區的人也能了解典禮現況。"
   url: "https://github.com/sciyen/ES_Graduation_Timeline"
   tags: [ES, Web]
 #
-- name: "工科系光球表演"
+- name: "ES Light Ball 工科系光球表演"
   cover-photo: "/assets/imgs/es_light_ball.jpg"
-  team: "個人"
-  description: "光球表演大多沒辦法與音樂互相配合，因此決定自行設計，顛覆大家對光球的想像。利用視窗程式製作光球編輯程式，該程式讓使用者依據音樂配對不同光影效果，並產生壓縮後的光球編碼作為光球控制訊號，於光球上解碼後得到與音樂相配合的光影效果，並控制光影在正確的時間點作動。"
+  team: "Personal"
+  description: "The traditional light ball performances often involve dancers triggering light effects at specific times after playing music, lacking synchronization between the lights and the music. Therefore, we decided to design our own light ball to revolutionize the conventional concept of light balls. In the first version, we created a light effect editing program using C# Windows application, allowing users to design various light effects based on music and generate compressed light ball encoding as control signals. Decoding the encoding on the light ball produces synchronized light effects with the music, activating the lights at the right moments. 光球表演大多沒辦法與音樂互相配合，因此決定自行設計，顛覆大家對光球的想像。利用視窗程式製作光球編輯程式，該程式讓使用者依據音樂配對不同光影效果，並產生壓縮後的光球編碼作為光球控制訊號，於光球上解碼後得到與音樂相配合的光影效果，並控制光影在正確的時間點作動。"
   url: "https://github.com/sciyen/ES-Lux"
   video: "https://youtu.be/g5vR8DxKb7g"
   tags: [ES, ESP32]
 #
 - name: "ES-Lux"
   cover-photo: "/assets/imgs/es_lux.jpg"
-  team: "2人團隊"
-  description: "光球表演大多沒辦法與音樂互相配合，因此決定自行設計，顛覆大家對光球的想像。利用視窗程式製作光球編輯程式，該程式讓使用者依據音樂配對不同光影效果，並產生壓縮後的光球編碼作為光球控制訊號，於光球上解碼後得到與音樂相配合的光影效果，並控制光影在正確的時間點作動。"
+  team: "2 Members"
+  description: "In the second version, we utilized an ESP32 microcontroller and a web interface for control, enabling faster and more convenient light effect editing, as well as the display of more intricate effects. 光球表演大多沒辦法與音樂互相配合，因此決定自行設計，顛覆大家對光球的想像。利用視窗程式製作光球編輯程式，該程式讓使用者依據音樂配對不同光影效果，並產生壓縮後的光球編碼作為光球控制訊號，於光球上解碼後得到與音樂相配合的光影效果，並控制光影在正確的時間點作動。"
   url: "https://github.com/sciyen/ES-Lux"
   video: "https://youtu.be/oVoUZH0_7GY"
   tags: [ES, ESP32]
 #
 - name: "工科系傳情訂購表單系統"
   cover-photo: "/assets/imgs/es_love.jpg"
-  team: "個人"
+  team: "Personal"
   description: "由於傳情表單需要能夠動態選擇購買商品以及即時顯示優惠後的價格，並且包含許多購買組合與優惠方案，因此我自行設計此網頁以符合需求，並且提供賣方繳費檢驗機制與後台介面統計商品賣出數量，利用AJAX技術達成動態需求，並以Raspberry Pi作為網頁伺服器。"
   url: "https://github.com/sciyen/ES_Remember_You"
   tags: [ES, Web]
 #
 - name: "工科系虛擬畢業典禮"
   cover-photo: "/assets/imgs/es_virtual_grad.jpg"
-  team: "個人"
-  description: "由於疫情因素，我們的大學畢業典禮取消，為了讓大家有畢業典禮的感覺，我們設計這個系統讓師生可以在上面互動，並且進行撥穗儀式。"
+  team: "Personal"
+  description: "Due to the pandemic, our university graduation ceremony was cancelled, so we designed this system to allow teachers and students to interact and participate in the graduation ceremony virtually, including the traditional tassel turning ritual. 由於疫情因素，我們的大學畢業典禮取消，為了讓大家有畢業典禮的感覺，我們設計這個系統讓師生可以在上面互動，並且進行撥穗儀式。"
   url: "https://github.com/sciyen/VirtualGraduationCeremony"
   demo-url: "https://sciyen.github.io/VirtualGraduationCeremony/"
   tags: [ES, Web]
 #
 - name: "ESCAPE(微處理機與介面設計專題、工科營黑客松)"
   cover-photo: "/assets/imgs/escape.jpg"
-  team: "3人團隊"
+  team: "3 Members"
   description: "此專題日後用於工程科學研習營之黑客松活動，本專題將複雜技術包裝於簡易關卡中，希望藉由破關方式讓學員體驗成就感。 
 利用Raspberry Pi架設網頁伺服器，以網頁做為遙控人機介面，並以USB傳送馬達控制命令予Arduino端，Arduino解譯後控制LED面板以及發射砲台發射砲彈。"
   url: "https://github.com/sciyen/ES_Camp_22nd"
@@ -113,34 +114,34 @@
 #
 - name: "車道辨識(Lane Line Detection)"
   cover-photo: "/assets/imgs/lane_detection.jpg"
-  team: "個人"
+  team: "Personal"
   description: "此為「自動駕駛實務」專題，利用色域轉換、邊緣檢測、Hough Transform等演算法偵測車道線並降低陰影、光照差異之影響，我嘗試使用創新方法:以Hough Domain統計資訊尋找影像視覺中心點。"
   video: "https://youtu.be/4kwuS4jsSXk"
   tags: [ES, Course, CV]
 #
 - name: "Covid19 Detection"
   cover-photo: "/assets/imgs/covid_detection.jpg"
-  team: "3人團隊"
+  team: "3 Members"
   description: "此為「人工智慧導論」課程中的專題實作，藉由肺部X光照片判斷其患者肺炎種類，利用OpenCV影像處理使得肺部發炎特徵明顯化，並使用一創新方式將黑白X光照片處理後，儲存其資訊於不同channel內以供YOLO辨識。"
   url: "https://github.com/sciyen/Covid19-Xray-Detection"
   tags: [Course, DL]
 #
 - name: "AI Mango Classification"
   cover-photo: "/assets/imgs/mango_detection.jpg"
-  team: "個人"
+  team: "Personal"
   description: "此為AIdea舉辦之AI Cup中的項目，目標為依據芒果照片識別芒果等級，我以YOLO辨識芒果主體並進行裁切作為前處理，分類模型參考Resnet中的Residual layer做特徵提取，最終獲得Train Accuracy 0.813與 Test Accuracy 0.775的結果。"
   tags: [ES, Course, DL]
 #
 - name: "raycaster"
   cover-photo: "/assets/imgs/raycaster.png"
-  team: "個人"
+  team: "Personal"
   description: "A efficient and lean implementation of the ray casting algorithm. https://hackmd.io/SgFjqgnWSpOWUrJRK1-16w"
   url: "https://github.com/sciyen/raycaster"
   tags: [Course]
 #
 - name: "Always Be With You"
   cover-photo: "/assets/imgs/always_be_with_you.jpg"
-  team: "4人團隊"
+  team: "4 Members"
   description: "機械結構設計與製作，馬達驅動與回授控制系統設計。"
   url: "https://github.com/sciyen/NTU-Robotic-2021-Fall"
   video: "https://youtu.be/4aJaELIo60E"
@@ -148,13 +149,13 @@
 #
 - name: "Reseach Helper"
   cover-photo: "/assets/imgs/research_helper.png"
-  team: "個人"
+  team: "Personal"
   description: "This is a plugin for diagrams.net(drawio) which retrieves the library from your Zotero personal account and organizes your references according to the collection in it. With this plugin, you can add tags for blocks with standard citation format."
   url: "https://github.com/sciyen/ResearchHelper"
   demo-url: "https://sciyen.github.io/drawio/src/main/webapp/index.html?p=zotero.js"
 #
 - name: "ISP Avionic System"
   cover-photo: "https://imgur-backup.hackmd.io/Igu0pTp.png"
-  team: "個人"
+  team: "Personal"
   description: "We developed this version for an advanced controlled rocket plan, which requires much more computational resources and more precise sensor feedback, and needs the communication capability."
   url: "https://github.com/sciyen/NCKU-ISP"
