@@ -10,10 +10,12 @@
   - Name: "Lu-Ching Wang"
   - Name: "Yen-Cheng Chu"
   - Name: "Feng-Li Lian"
-  Publication: "2024 IEEE International Conference on Robotics and Automation (ICRA2024)"
+  Publication: "2024 IEEE International Conference on Robotics and Automation (ICRA 2024)"
   Date: "May 2024"
   Keywords: ["Agricultural Automation", "Mobile Manipulation", "Field Robots"]
   Venue: "Pacific Convention Plaza Yokohama(PACIFICO Yokohama) 1-1-1, Minato Mirai, Nishi-ku, Yokohama 220-0012, JAPAN"
+  Url: "https://ieeexplore.ieee.org/document/10610772/"
+  DOI: "10.1109/ICRA57147.2024.10610772"
 - Title: "An Over-Actuated Thrust-Vectoring Modular Drone based on Cascaded Full-Pose Tracking Control with Redistributed Control Allocation for Safe Aerial Delivery Applications"
   Authors:
   - Name: "Yen-Cheng Chu"
@@ -23,3 +25,12 @@
   Url: "http://tdr.lib.ntu.edu.tw/jspui/handle/123456789/92117"
   DOI: "10.6342/NTU202400588"
   Keywords: ["aerial delivery", "modular system", "unmanned aerial vehicle (UAV)", "vertical takeoff and landing (VTOL)", "attitude planner", "full-pose tracking control", "over-actuated system", "thrust-vectoring control (TVC)", "constrained control allocation", "redistributed pseudo-inverse"]
+- Title: "Attainable Force Approximation and Full-Pose Tracking Control of an Over-Actuated Thrust-Vectoring Modular Team UAV"  
+  Authors:
+  - Name: "Yen-Cheng Chu"
+  - Name: "Kai-Cheng Fang"
+  - Name: "Feng-Li Lian"
+  Publication: "2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2024)"
+  Data: "Oct. 2024"
+  Venue: "ADNEC in Abu Dhabi ,UAE."
+  Keywords: ["Aerial Systems: Mechanics and Control", "Aerial Systems: Applications", "Cellular and Modular Robots"]
