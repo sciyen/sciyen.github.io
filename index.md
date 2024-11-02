@@ -30,14 +30,14 @@ layout: default
 <h2>Skills</h2>
 <div>
     <ul class="regular">
-        <li>Experience in Hybrid simulation (MATLAB Simulink)</li>
+        <li>Experiences in Hybrid simulations (MATLAB Simulink)</li>
         <li>PX4 on Nuttx RTOS system (6-DoF controller and control allocation)</li>
-        <li>Software-in-the-loop simulation (Gazebo)</li>
+        <li>Software-in-the-loop simulations (based on Gazebo)</li>
         <li>Flight Data Analysis (Rviz, ulog, rosbag)</li>
         <li>MCU development for 10 years (Atmega, STM32, ESP32, etc.)</li>
         <li>ROS1 Noetic and ROS2 Humble</li>
         <li>Being familier with version control software (Git)</li>
-        <li>PCB layout (for Avionics)</li>
+        <li>PCB layout</li>
     </ul>
 </div>
 <div class="skill-container">
@@ -67,13 +67,13 @@ layout: default
 
 <h2>Research Interests</h2>
 <div>
-Keywords: Robotics, Unmanned Aerial Vehicles, Control Systems, Embedded Systems.
+Keywords: Robotics, Unmanned Aerial Vehicles, Control Systems, Guidance navigation and control (GNC).
 </div>
 <div>
 <ul class="regular">
     <li>Vehicle dynamics on SE(3), including modeling and 6-DoF controls.</li>
     <li>Designing controller for under-actuated / over-actuated system</li>
-    <li>Designing control allocation algorithm</li>
+    <li>control allocation algorithm development</li>
 </ul>
 </div>
 
@@ -85,7 +85,8 @@ Keywords: Robotics, Unmanned Aerial Vehicles, Control Systems, Embedded Systems.
     </div>
     <div>
         <ul class="regular">
-        <li>Advisor: Prof. Feng-Li Lian</li>
+        <li>Advisor: <a href="https://homepage.ntu.edu.tw/~fengli/">Prof. Feng-Li Lian</a></li>
+        <li>Lab: <a href="https://homepage.ntu.edu.tw/~ncslab/">Networked Control Systems Laboratory (NCSLab)</a></li>
         <li>Full article is available at: <a href="http://tdr.lib.ntu.edu.tw/jspui/handle/123456789/92117">NTU Thesis and Dissertion Repository</a></li>
         </ul>
     </div>
@@ -132,7 +133,7 @@ In this research, a Thrust-Vectoring Modular Drone (TVMD) with coaxial rotors is
 {% endfor %}
 </ul>
 
-<h2>Publication</h2>
+<h2>Publications</h2>
 <ul id="publication-container">
 {% for item in site.data.publications %}
     <li>
